@@ -31,7 +31,7 @@
   bottom:0;
   height:100%;
   left:0;
-  width:60px;
+  width:50px;
   overflow:hidden;
   -webkit-transition:width .05s linear;
   transition:width .05s linear;
@@ -200,5 +200,4 @@ nav ul,nav li {
   </ul>
 
 </nav>
-</body>
-</html>
+
