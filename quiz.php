@@ -34,36 +34,24 @@ include 'includes/header.php'
   <li class="breadcrumb-item"><a href="#">Home</a></li>
   <li class="breadcrumb-item"><a href="#">AngularJS</a></li>
   <li class="breadcrumb-item"><a href="#">Basic Commands</a></li>
-  <li class="breadcrumb-item active">Activity Basic Commands</li>
+  <li class="breadcrumb-item"><a href="#">Basic Commands</a></li>
+  <li class="breadcrumb-item active">Quiz</li>
 </ol>
-  <h6 class="display-3">Activity : Basic Commands</h6><hr>
-<h5> Drag and Drop the Correct Answers</h5>
-<br>
-    
-    <p style="font-size: 18px"><input type="text" > <input type="text" > testapp.</p>
+  <h6 class="display-4">Quiz</h6><hr>
+<h5> 1) Select the correct command to create a component from the following options given below.</h5>
+<br>    
+<div class="radio" style="font-size: 22px">
+<input type="radio" name="gender" value="male"> npm generate component commands<br>
+  <input type="radio" name="gender" value="female"> ng new service commands<br>
+  <input type="radio" name="gender" value="other"> ng generate component commands   
     <br>
+    <input type="radio" name="gender" value="female"> ng new component commands<br>
     <br>
-
- 
-<div class="card border-light mb-3" style="max-width: 30rem;">
-  
-  <div class="card-body">
-    <h4 class="card-title">Options : </h4>
-    <table>
-      <tr>
-        <td ></td>
-        <td width="100px"> node</td>
-        <td width="100px" width="100px">new</td>
-        <td width="100px">CLI</td>
-        <td width="100px">ng</td>
-        <td width="100px">generate</td>
-      </tr>
-    </table>
-  </div>
-  
 </div>
+ 
+
  <div align="right">
-<a href="correctfeedback.php"> <button type="button" class="btn btn-success" style="align-content: right">Check Answer</button></a>
+<button type="button" class="btn btn-success" style="align-content: right">Check Answer</button>
 </div>   
 </div> 
 
